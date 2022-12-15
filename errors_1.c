@@ -9,9 +9,9 @@ int unknown_op_error(char *opcode, unsigned int line_number);
 int no_int_error(unsigned int line_number);
 
 /**
- *  * usage_error - Prints usage error messages.
- *   *
- *    * Return: (EXIT_FAILURE) always.
+ * usage_error - Prints usage error messages.
+ *
+ * Return: (EXIT_FAILURE) always.
  **/
 int usage_error(void)
 {
@@ -20,9 +20,9 @@ int usage_error(void)
 }
 
 /**
- *  * malloc_error - Prints malloc error messages.
- *   *
- *    * Return: (EXIT_FAILURE) always.
+ * malloc_error - Prints malloc error messages.
+ *
+ * Return: (EXIT_FAILURE) always.
  **/
 int malloc_error(void)
 {
@@ -31,10 +31,10 @@ int malloc_error(void)
 }
 
 /**
- *  * f_open_error - Prints file opening error messages w/ file name.
- *   * @filename: Name of file failed to open
- *    *
- *     * Return: (EXIT_FAILURE) always.
+ * f_open_error - Prints file opening error messages w/ file name.
+ * @filename: Name of file failed to open
+ *
+ * Return: (EXIT_FAILURE) always.
  **/
 int f_open_error(char *filename)
 {
@@ -43,11 +43,11 @@ int f_open_error(char *filename)
 }
 
 /**
- *  * unknown_op_error - Prints unknown instruction error messages.
- *   * @opcode: Opcode where error occurred.
- *    * @line_number: Line number in Monty bytecodes file where error occured.
- *     *
- *      * Return: (EXIT_FAILURE) always.
+ * unknown_op_error - Prints unknown instruction error messages.
+ * @opcode: Opcode where error occurred.
+ * @line_number: Line number in Monty bytecodes file where error occured.
+ *
+ * Return: (EXIT_FAILURE) always.
  **/
 int unknown_op_error(char *opcode, unsigned int line_number)
 {
